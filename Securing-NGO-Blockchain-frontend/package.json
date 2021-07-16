@@ -1,0 +1,33 @@
+{
+  "name": "ngo_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.1",
+    "@material-ui/icons": "^4.9.1",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "ganache-cli": "^6.12.1",
+    "material-ui": "^0.20.2",
+    "next": "10.0.3",
+    "next-routes": "^1.4.2",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "17.0.1",
+    "react-icons": "^4.1.0",
+    "react-responsive-carousel": "^3.2.11",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.1",
+    "react-slick": "^0.27.13",
+    "solc": "^0.4.17",
+    "styled-components": "^5.2.1",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web-vitals": "^0.2.4",
+    "web3": "^1.2.11"
+  }
+}

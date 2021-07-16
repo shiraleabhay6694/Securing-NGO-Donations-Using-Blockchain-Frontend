@@ -1,0 +1,87 @@
+.slider{
+    position:relative;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image{
+      width:1700px;
+      height:850px;
+      border-radius: 10px;
+  }
+  
+  .right-arrow{
+    position: absolute;
+    top:50%;
+    right:80px;
+    font-size: 3rem;
+    color:black;
+    z-index:10;
+    cursor:pointer;
+    user-select: none;
+  }
+  
+  .left-arrow{
+    position: absolute;
+    top:50%;
+   left:80px;
+    font-size: 3rem;
+    color:black;
+    z-index:10;
+    cursor:pointer;
+    user-select: none;
+  }
+  
+  .slide{
+    opacity:0;
+    transition-duration: 1s ease;}
+  
+  .slide.active{
+    opacity:1;
+    transition-duration: 1s;
+    transform: scale(1.08) ;
+  }
+  
+  .Featureblock{
+    
+  
+    text-align: center;
+  }
+  
+  .cardngo{
+    padding:80px;
+    margin-top:40px;
+    color:white;
+  width:105%
+    
+  }
+  
+  .about{
+    color:white
+  }
+  
+  .imga{
+    color:white
+  }
+  
+  .gap100{
+    padding: 70px 0px;
+  }
+  
+  /* Sign Up CSS */
+  
+  .bodysign{
+    /* background-image: url(Login.jpg); */
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: new times roman;
+  }
+  
+  .h1tag{
+    font-size:40px;
+    color:gray;
+    margin-top:20px;
+    margin-bottom: 30px;
+  }
